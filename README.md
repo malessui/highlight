@@ -51,7 +51,7 @@ const codeSnippet = `module.exports = {
 
  Then you must import style on your css file:
  ```css
- @import url("@shipless/play/dist/style.css");
+ @import url("@shipless/highlight/dist/style.css");
  ```
 
  ## Demo
