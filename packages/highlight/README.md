@@ -4,7 +4,7 @@
   </a>
 </p>
 
-# Shipless Play
+# Shipless Highlight
 
 Shipless Highlight is a Renders highlighted Prism output to React 
 
