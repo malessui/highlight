@@ -30,7 +30,7 @@ const codeSnippet = `module.exports = {
   plugins: [
     ...
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: "gatsby-source-filesystem", // highlight-line
       options: {
         // highlight-remove-start
         name: "cheatsheets",
