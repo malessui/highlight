@@ -10,6 +10,7 @@ Shipless Highlight is a Renders highlighted Prism output to React
 
 [![npm (scoped)](https://img.shields.io/npm/v/@shipless/highlight?style=for-the-badge)](https://www.npmjs.com/package/@shipless/highlight)
 [![npm](https://img.shields.io/npm/dt/@shipless/highlight?label=Download&style=for-the-badge)](https://www.npmjs.com/package/@shipless/highlight)
+![NPM](https://img.shields.io/npm/l/@shipless/highlight?style=for-the-badge)
 ## Installation
 
 Use the package manager `yarn` or `npm` to install this package.
