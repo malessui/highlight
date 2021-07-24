@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @import url('https://rsms.me/inter/inter.css');
+  html {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  @supports (font-variation-settings: normal) {
+    html { font-family: 'Inter var', sans-serif; }
+  }
+}
+
+
+.sl-highlight-pre {
+  padding: 32px 0;
+  position: relative;
+  border-radius: .5rem;
+  line-height: 1.7777778;
+}
+
+.token-line {
+  padding: 0 32px;
+  position: relative;
+}
+
+.sl-highlight-add {
+  left: 0;
+  padding-left: 10px;
+  color: rgba(52, 211, 153, var(--tw-bg-opacity));
+  position: absolute;
+}
+
+.sl-highlight-add:after {
+  position: absolute;
+  left: 0;
+  width: 2px;
+  background: rgba(52, 211, 153, var(--tw-bg-opacity));
+  top: 0;
+  bottom: 0;
+  content: " ";
+}
+
+.sl-highlight-remove {
+  left: 0;
+  padding-left: 10px;
+  color: rgba(248, 113, 113, var(--tw-bg-opacity));
+  position: absolute;
+}
+
+.sl-highlight-remove:after {
+  position: absolute;
+  left: 0;
+  width: 2px;
+  background: rgba(248, 113, 113, var(--tw-bg-opacity));
+  top: 0;
+  bottom: 0;
+  content: " ";
+}
+
+.sl-highlight-lang {
+  background-color: rgb(1, 22, 39);
+}
+
+.sl-highlight-pre > div:last-of-type {
+  display: none;
+}

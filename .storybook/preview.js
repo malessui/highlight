@@ -1,4 +1,4 @@
-import "../packages/react/dist/style.css"
+import "../packages/highlight/dist/style.css"
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
