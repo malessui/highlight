@@ -5,13 +5,6 @@ import ShiplessHigh from "./index"
 export default {
   component: ShiplessHigh,
   title: 'Shipless',
-  paramaters: {
-    docs: {
-      source: {
-        type: "code"
-      }
-    }
-  }
 } as Meta;
 
 export const Basic: React.VFC<{}> = () => {
