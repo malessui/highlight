@@ -58,5 +58,5 @@ export default {
 } as Meta;
 
 export const Basic: React.VFC<{}> = () => <ShiplessHigh code={codeSnippetBasic} lang="js"/>;
-export const SingleHighlight: React.VFC<{}> = () => <ShiplessHigh code={codeSnippetSingle} lang="js"/>;
-export const MultiHighlight: React.VFC<{}> = () => <ShiplessHigh code={codeSnippetMulti} lang="js"/>;
+export const InlineHighlight: React.VFC<{}> = () => <ShiplessHigh code={codeSnippetSingle} lang="js"/>;
+export const BlockHighlight: React.VFC<{}> = () => <ShiplessHigh code={codeSnippetMulti} lang="js"/>;
