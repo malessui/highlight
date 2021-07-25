@@ -12,7 +12,7 @@ Shipless Highlight is a Renders highlighted Prism output to React
 [![npm](https://img.shields.io/npm/dt/@shipless/highlight?label=Download&style=for-the-badge)](https://www.npmjs.com/package/@shipless/highlight)
 ![NPM](https://img.shields.io/npm/l/@shipless/highlight?style=for-the-badge)
 ![npm bundle size](https://img.shields.io/bundlephobia/min/@shipless/highlight?style=for-the-badge)
-## Installation
+### Installation
 
 Use the package manager `yarn` or `npm` to install this package.
 
@@ -22,7 +22,7 @@ yarn add @shipless/highlight
 npm install @shipless/highlight
 ```
 
-## Usage
+### Usage
 
 `import` @shipless/highlight package suck as the following:
 
@@ -58,21 +58,25 @@ const codeSnippet = `module.exports = {
  @import url("@shipless/highlight/dist/style.css");
  ```
 
- ## Demo
+ ### Demo
 
  [Example](https://shipless-highlight.netlify.app/)
 
- ## API
+ ### Showcase
+
+ - [Membuat blog menggunakan Gatsbyjs](https://muhrusdi.github.io/blog/membuat-personal-blog-menggunakan-gatsbyjs) - muhrusdi
+
+ ### API
 
 |      Props       |                          description                       |   default                                | required |
 | :--------------: | :--------------------------------------------------------: | :--------------------------------------: | :------: |
 |        lang        |             languange that your code             |                                          |   true  |
 |  code            |            Initial code to be displayed                    |                                          |   true   |
 
-## Contributing
+### Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
-## License
+### License
 [MIT](https://choosealicense.com/licenses/mit/)
