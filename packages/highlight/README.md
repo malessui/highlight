@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/shipless/highlight">
-    <img alt="shipless" src="https://res.cloudinary.com/muhrusdi/image/upload/v1627117012/highlight-code.png" width="100%" />
+    <img alt="shipless" src="https://res.cloudinary.com/muhrusdi/image/upload/v1627214710/highlight-code.png" width="100%" />
   </a>
 </p>
 
