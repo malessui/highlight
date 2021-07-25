@@ -23,7 +23,7 @@ export const Basic: React.VFC<{}> = () => {
         resolve: "gatsby-source-filesystem",
         options: {
           name: "cheatsheets",
-          path: "\${__dirname}/src/data/cheatsheets",src/data/blogs",
+          path: "\${__dirname}/src/data/cheatsheets",
         },
       },
       ...
